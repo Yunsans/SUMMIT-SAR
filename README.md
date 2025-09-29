@@ -12,7 +12,7 @@ This repository hosts the official implementation of SUMMIT, a state-of-the-art 
 
 ## Model Architecture
 
-![SUMMIT Architecture](overall.pdf "SUMMIT Framework")
+![SUMMIT Architecture](overall.jpeg "SUMMIT Framework")
 
 SUMMIT is built on a Vision Transformer (ViT). Pre-Training StageInput: MuSID dataset (448×448 resized images). Process: ATCM coordinates MIM, denoising, and SSF enhancement tasks. The shared ViT encoder learns SAR-specific features, with a decoder optimizing multi-task reconstruction loss.
 
